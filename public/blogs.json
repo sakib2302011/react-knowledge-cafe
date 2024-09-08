@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "blog_title": "The Ultimate Guide to Remote Work Productivity",
+    "blog_img": "https://i.ibb.co.com/xqRqKtg/andrew-neel-cckf4-Ts-HAuw-unsplash.jpg",
+    "author": "Nazmus Sakib",
+    "author_img": "https://i.ibb.co.com/KLNbFNn/myDp.png",
+    "posted_date": "Mar 5 (4 days ago)",
+    "reading_time": 8,
+    "hashtags": ["#remotework", "#productivity", "#workfromhome"]
+  },
+  {
+    "id": 2,
+    "blog_title": "10 Delicious Vegan Recipes for Beginners",
+    "blog_img": "https://i.ibb.co.com/WzgbFyC/brooke-lark-Hl-Ncigv-Ui4-Q-unsplash.jpg",
+    "author": "John Smith",
+    "author_img": "https://i.ibb.co.com/BLzf37P/boy1.png",
+    "posted_date": "Feb 28 (9 days ago)",
+    "reading_time": 6,
+    "hashtags": ["#vegan", "#recipes", "#healthyfood"]
+  },
+  {
+    "id": 3,
+    "blog_title": "Mastering Python: A Step-by-Step Guide for Beginners",
+    "blog_img": "https://i.ibb.co.com/kB9FLWT/rubaitul-azad-ZIPFteu-R8k-unsplash.jpg",
+    "author": "Emily Zhang",
+    "author_img": "https://i.ibb.co.com/ThVWh58/girl1.jpg",
+    "posted_date": "Mar 2 (7 days ago)",
+    "reading_time": 10,
+    "hashtags": ["#python", "#coding", "#programming"]
+  },
+  {
+    "id": 4,
+    "blog_title": "Exploring the Best Hiking Trails in Europe",
+    "blog_img": "https://i.ibb.co.com/jJ9xc1t/diogo-tavares-rcngq-AAf-YK0-unsplash.jpg",
+    "author": "Liam Williams",
+    "author_img": "https://i.ibb.co.com/2854PDp/boy2.jpg",
+    "posted_date": "Mar 4 (5 days ago)",
+    "reading_time": 7,
+    "hashtags": ["#hiking", "#europe", "#adventure"]
+  },
+  {
+    "id": 5,
+    "blog_title": "The Future of Artificial Intelligence: What to Expect in 2030",
+    "blog_img": "https://i.ibb.co.com/wwH2gsY/movie-poster-movie-terminator.jpg",
+    "author": "Aisha Patel",
+    "author_img": "https://i.ibb.co.com/8PQzH3g/girl2.jpg",
+    "posted_date": "Mar 1 (8 days ago)",
+    "reading_time": 9,
+    "hashtags": ["#AI", "#technology", "#future"]
+  }
+]

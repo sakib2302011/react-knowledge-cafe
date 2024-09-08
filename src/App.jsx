@@ -1,4 +1,7 @@
 import './App.css'
+import Blogs from './components/Blogs/Blogs'
+import Header from './components/header/header'
+import './index.css'
 
 function App() {
   
@@ -6,8 +9,8 @@ function App() {
   return (
     <>
       
-      <h1 className='text-6xl text-blue-500 bg-fuchsia-400' >Succesfully added tailwind with react</h1>
-      
+      <Header></Header>
+      <Blogs></Blogs>
     </>
   )
 }
