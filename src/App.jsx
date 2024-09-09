@@ -8,9 +8,15 @@ import './index.css'
 
 function App() {
   const [bookmarks, setBookmarks] = useState([]);
-
+  const [readingTime, setReadingTime] = useState(0);
+  
   const handleAddToBookmarks = blog => {
     setBookmarks(previousBookmarks => [...previousBookmarks, blog])
+  }
+  const handleMarkAsRead = (id, time) => {
+    setReadingTime(readingTime+time);
+    const newBookMarks = bookmarks.filter(bookmark => bookmark.id !== id);
+    setBookmarks(newBookMarks);
   }
   return (
     <>
@@ -20,11 +26,14 @@ function App() {
           <div className='w-2/3'>
             <Blogs 
               handleAddToBookmarks={handleAddToBookmarks}
+              handleMarkAsRead={handleMarkAsRead}
             ></Blogs>
           </div>
           
           <div className='w-1/3 '>
-            <TrackTime></TrackTime>
+            <TrackTime
+              readingTime={readingTime}
+            ></TrackTime>
             <Bookmark
               bookmarks={bookmarks}
             ></Bookmark>
